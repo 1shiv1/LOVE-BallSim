@@ -1,1 +1,3 @@
-echo ".vscode/" >> .gitignore
+.vscode/
+.DS_Store
+push.sh
