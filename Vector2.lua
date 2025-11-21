@@ -78,7 +78,7 @@ function Vector2.__unm(a)
 end
 
 Vector2.__tostring = function(self)
-    return tostring(self.x)..tostring(self.y)
+    return tostring(self.x)..", "..tostring(self.y)
 end
 
 return Vector2
