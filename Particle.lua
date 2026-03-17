@@ -69,6 +69,13 @@ function Particle:Update(dt, activeObjects)
             ) * (1-self.Friction) * (dt * 60)
         end
         
+        if math.abs(self.Velocity.x) > WinWidth then
+            self.Velocity.x = 0
+        end
+        if math.abs(self.Velocity.y) > WinHeight then
+            self.Velocity.y = 0
+        end
+
         self:GetGrid()
     end
 end

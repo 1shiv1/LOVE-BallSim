@@ -1,11 +1,11 @@
 local config = {
     general = {
-        particleCount = 300
+        particleCount = 75
     },
 
     window = {
-        width = 800,
-        height = 800,
+        width = 900,
+        height = 900,
         title = "Physics Engine Project"
     },
 
